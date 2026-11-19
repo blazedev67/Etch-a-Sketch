@@ -1,0 +1,13 @@
+.divdrag{
+    background-color: rgb(112, 89, 47);
+    height: 16px;
+    width: 16px;
+    border: black solid 0.1px;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 256px;
+}
