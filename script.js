@@ -7,3 +7,12 @@ for(let i = 0; i < 256; i++){
     newDiv.className = "divdrag";
     container.appendChild(newDiv);
 };
+
+// Selecting all the squares and storing in a variable
+const squares = document.querySelectorAll('.divdrag');
+
+squares.forEach((square) => {
+square.addEventListener('mouseenter', () =>{
+    square.style.backgroundColor = 'lightblue';
+})
+});
