@@ -10,4 +10,10 @@
     display: flex;
     flex-wrap: wrap;
     width: 256px;
+    height: 256px;
+}
+
+#btn{
+    background-color: blanchedalmond;
+    margin: 20px 30px;
 }
